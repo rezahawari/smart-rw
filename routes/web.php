@@ -1,6 +1,9 @@
 <?php
 
+use App\Http\Controllers\CctvController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\InformasiController;
+use App\Http\Controllers\PengajuanController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,4 +22,10 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/', [HomeController::class, 'home'])->name('home');
+
+Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan');
+
+Route::get('/cctv', [CctvController::class, 'index'])->name('cctv');
+
+Route::get('/informasi', [InformasiController::class, 'index'])->name('informasi');
 require __DIR__.'/auth.php';
