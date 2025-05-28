@@ -21,7 +21,10 @@ use Illuminate\Support\Facades\Route;
 //     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 // });
 
-Route::get('/', [HomeController::class, 'home'])->name('home');
+// Route::get('/', [HomeController::class, 'home'])->name('home');
+Route::get('/', function(){
+    return route('pengajuan');
+});
 
 Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan');
 
