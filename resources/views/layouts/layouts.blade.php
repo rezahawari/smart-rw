@@ -36,7 +36,8 @@
 					<!-- Logo -->
 					<div class="logo">
 						<a href="index.html">
-							<img class="nftmax-logo__main" src="{{asset('tem/img/logo-white.png')}}" alt="#">
+                            <h2>SMART RW</h2>
+							{{-- <img class="nftmax-logo__main" src="{{asset('tem/img/logo-white.png')}}" alt="#"> --}}
 						</a>
 						<div class="nftmax__sicon close-icon"><img src="{{asset('tem/img/menu-toggle.svg')}}" alt="#"></div>
 					</div>
