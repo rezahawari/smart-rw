@@ -28,4 +28,6 @@ Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan
 Route::get('/cctv', [CctvController::class, 'index'])->name('cctv');
 
 Route::get('/informasi', [InformasiController::class, 'index'])->name('informasi');
+
+// Route::get('/pengaduan', [])
 require __DIR__.'/auth.php';
