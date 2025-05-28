@@ -150,46 +150,50 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <table class="table">
-                        <tr>
-                            <td>Nama</td>
-                            <td>: Michael</td>
-                        </tr>
-                        <tr>
-                            <td>NIK</td>
-                            <td>: 3372141823714328</td>
-                        </tr>
-                        <tr>
-                            <td>Alamat</td>
-                            <td>: Jl Gergaji</td>
-                        </tr>
-                        <tr>
-                            <td>Hubungan Keluarga</td>
-                            <td>: Bapak</td>
-                        </tr>
-                        <tr>
-                            <td>Warga Sejak</td>
-                            <td>: 2025-01-01</td>
-                        </tr>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table">
+                            <tr>
+                                <td>Nama</td>
+                                <td>: Michael</td>
+                            </tr>
+                            <tr>
+                                <td>NIK</td>
+                                <td>: 3372141823714328</td>
+                            </tr>
+                            <tr>
+                                <td>Alamat</td>
+                                <td>: Jl Gergaji</td>
+                            </tr>
+                            <tr>
+                                <td>Hubungan Keluarga</td>
+                                <td>: Bapak</td>
+                            </tr>
+                            <tr>
+                                <td>Warga Sejak</td>
+                                <td>: 2025-01-01</td>
+                            </tr>
+                        </table>
+                    </div>
                     <hr>
                     <h3>Detail KK</h3>
-                    <table class="table table-bordered table-hover">
-                        <thead>
-                            <tr>
-                                <th>No</th>
-                                <th>Nama</th>
-                                <th>NIK</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>1</td>
-                                <td>Michael</td>
-                                <td>3372141823714328</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                    <th>No</th>
+                                    <th>Nama</th>
+                                    <th>NIK</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Michael</td>
+                                    <td>3372141823714328</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
 
                 </div>
                 <div class="modal-footer">
