@@ -60,55 +60,58 @@
                                             </ul>
                                         </div>
                                         <!-- NFTMax Table -->
-                                        <table id="nftmax-table__main tabel1" class="table table-striped nftmax-table__main nftmax-table__profile-activity">
-                                            <!-- NFTMax Table Head -->
-                                            <thead class="nftmax-table__head">
-                                                <tr>
-                                                    <th class="nftmax-table__column-1 nftmax-table__h1">No</th>
-                                                    <th class="nftmax-table__column-2 nftmax-table__h2">Nama</th>
-                                                    <th class="nftmax-table__column-3 nftmax-table__h2">NIK</th>
-                                                    <th class="nftmax-table__column-3 nftmax-table__h2">KK</th>
-                                                    <th class="nftmax-table__column-4 nftmax-table__h3">Alamat</th>
-                                                    <th class="nftmax-table__column-5 nftmax-table__h4">Status Keluarga</th>
-                                                    <th class="nftmax-table__column-6 nftmax-table__h5">Warga Sejak</th>
-                                                    <th class="nftmax-table__column-7 nftmax-table__h6">Aksi</th>
-                                                </tr>
-                                            </thead>
-                                            <!-- NFTMax Table Body -->
-                                            <tbody class="nftmax-table__body">
-                                                <tr>
-                                                    <td class="nftmax-table__column-1 nftmax-table__data-1">
-                                                        <span class="nftmax-table__text"><b>01</b></span>
-                                                    </td>
-                                                    <td class="nftmax-table__column-2 nftmax-table__data-2">
-                                                        <p class="nftmax-table__text nftmax-table__bid-text">Michael</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-3 nftmax-table__data-3">
-                                                        <p class="nftmax-table__text nftmax-table__bid-text">3372141823714328</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-3 nftmax-table__data-3">
-                                                        <p class="nftmax-table__text nftmax-table__bid-text">3372141823714328</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-4 nftmax-table__data-4">
-                                                        <p class="nftmax-table__text nftmax-table__bid-text">Jl Gergaji</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-5 nftmax-table__data-5">
-                                                        <p class="nftmax-table__text nftmax-table__bid-text">Bapak</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-6 nftmax-table__data-6">
-                                                        <p class="nftmax-table__text nftmax-table__time">2025-01-01</p>
-                                                    </td>
-                                                    <td class="nftmax-table__column-7 nftmax-table__data-7">
-                                                        <a data-bs-toggle="modal" data-bs-target="#modaldetailwarga" class="btn btn-primary btn-sm">
-                                                            Detail
-                                                        </a>
-                                                    </td>
-                                                </tr>
+                                        <div class="table-responsive">
+                                            <table id="nftmax-table__main tabel1" class="table table-striped nftmax-table__main nftmax-table__profile-activity">
+                                                <!-- NFTMax Table Head -->
+                                                <thead class="nftmax-table__head">
+                                                    <tr>
+                                                        <th class="nftmax-table__column-1 nftmax-table__h1">No</th>
+                                                        <th class="nftmax-table__column-2 nftmax-table__h2">Nama</th>
+                                                        <th class="nftmax-table__column-3 nftmax-table__h2">NIK</th>
+                                                        <th class="nftmax-table__column-3 nftmax-table__h2">KK</th>
+                                                        <th class="nftmax-table__column-4 nftmax-table__h3">Alamat</th>
+                                                        <th class="nftmax-table__column-5 nftmax-table__h4">Status Keluarga</th>
+                                                        <th class="nftmax-table__column-6 nftmax-table__h5">Warga Sejak</th>
+                                                        <th class="nftmax-table__column-7 nftmax-table__h6">Aksi</th>
+                                                    </tr>
+                                                </thead>
+                                                <!-- NFTMax Table Body -->
+                                                <tbody class="nftmax-table__body">
+                                                    <tr>
+                                                        <td class="nftmax-table__column-1 nftmax-table__data-1">
+                                                            <span class="nftmax-table__text"><b>01</b></span>
+                                                        </td>
+                                                        <td class="nftmax-table__column-2 nftmax-table__data-2">
+                                                            <p class="nftmax-table__text nftmax-table__bid-text">Michael</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-3 nftmax-table__data-3">
+                                                            <p class="nftmax-table__text nftmax-table__bid-text">3372141823714328</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-3 nftmax-table__data-3">
+                                                            <p class="nftmax-table__text nftmax-table__bid-text">3372141823714328</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-4 nftmax-table__data-4">
+                                                            <p class="nftmax-table__text nftmax-table__bid-text">Jl Gergaji</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-5 nftmax-table__data-5">
+                                                            <p class="nftmax-table__text nftmax-table__bid-text">Bapak</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-6 nftmax-table__data-6">
+                                                            <p class="nftmax-table__text nftmax-table__time">2025-01-01</p>
+                                                        </td>
+                                                        <td class="nftmax-table__column-7 nftmax-table__data-7">
+                                                            <a data-bs-toggle="modal" data-bs-target="#modaldetailwarga" class="btn btn-primary btn-sm">
+                                                                Detail
+                                                            </a>
+                                                        </td>
+                                                    </tr>
 
-                                            </tbody>
-                                            <!-- End NFTMax Table Body -->
-                                        </table>
-                                        <!-- End NFTMax Table -->
+                                                </tbody>
+                                                <!-- End NFTMax Table Body -->
+                                            </table>
+                                            <!-- End NFTMax Table -->
+
+                                        </div>
                                     </div>
                                 </div>
 
