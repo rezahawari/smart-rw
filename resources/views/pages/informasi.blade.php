@@ -141,7 +141,7 @@
         </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal detail warga -->
     <div class="modal fade" id="modaldetailwarga" tabindex="-1" aria-labelledby="modaldetailwargaLabel" aria-hidden="true">
         <div class="modal-dialog modal-xl">
             <div class="modal-content">
@@ -197,8 +197,62 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Lihat Dokumen</button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldokumen">Lihat Dokumen</button>
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Modal dokumen warga --}}
+    <div class="modal fade" id="modaldokumen" tabindex="-1" aria-labelledby="modaldokumenLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="modaldokumenLabel">Dokumen</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row nftmax-gap-sq30 ">
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="nftmax-collection__single">
+                                    <div class="nftmax-collection__head">
+                                        <a href="#"><img class="nftmax-collection__img" src="{{asset('pdflogo.png')}}" width="50%" alt="#"></a>
+                                    </div>
+                                    <div class="nftmax-collection__body">
+                                        <div class="nftmax-collection__author">
+                                            <div class="nftmax-collection__author-head">
+                                                <a href="#">
+                                                    <h4 class="nftmax-collection__title">KTP</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 col-12">
+                                <div class="nftmax-collection__single">
+                                    <div class="nftmax-collection__head">
+                                        <a href="#"><img class="nftmax-collection__img" src="{{asset('pdflogo.png')}}" width="50%" alt="#"></a>
+                                    </div>
+                                    <div class="nftmax-collection__body">
+                                        <div class="nftmax-collection__author">
+                                            <div class="nftmax-collection__author-head">
+                                                <a href="#">
+                                                    <h4 class="nftmax-collection__title">KK</h4>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modaldetailwarga">Kembali</button>
+                    {{-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> --}}
                 </div>
             </div>
         </div>
