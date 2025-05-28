@@ -23,7 +23,7 @@ use Illuminate\Support\Facades\Route;
 
 // Route::get('/', [HomeController::class, 'home'])->name('home');
 Route::get('/', function(){
-    return route('pengajuan');
+    return redirect()->route('pengajuan');
 });
 
 Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan');
