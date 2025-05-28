@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\CalenderController;
 use App\Http\Controllers\CctvController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InformasiController;
@@ -28,6 +29,8 @@ Route::get('/', function(){
 })->name('home');
 
 Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan');
+
+Route::get('/calender', [CalenderController::class, 'home'])->name('kalender');
 
 Route::get('/pengaduan', [PengaduanController::class, 'home'])->name('pengaduan');
 
