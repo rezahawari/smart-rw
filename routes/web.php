@@ -3,6 +3,7 @@
 use App\Http\Controllers\CctvController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\InformasiController;
+use App\Http\Controllers\PengaduanController;
 use App\Http\Controllers\PengajuanController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -27,6 +28,8 @@ Route::get('/', function(){
 })->name('home');
 
 Route::get('/pengajuan', [PengajuanController::class, 'index'])->name('pengajuan');
+
+Route::get('/pengaduan', [PengaduanController::class, 'home'])->name('pengaduan');
 
 Route::get('/cctv', [CctvController::class, 'index'])->name('cctv');
 
