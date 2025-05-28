@@ -11,6 +11,11 @@
         var calendar = new FullCalendar.Calendar(calendarEl, {
           initialView: 'dayGridMonth'
         });
+        calendar.batchRendering(function() {
+            calendar.addEvent({ title: 'Sarasehan RW 05', start: '2025-05-28' });
+            calendar.addEvent({ title: 'Silaturahmi warga', start: '2025-05-30' });
+            calendar.addEvent({ title: 'Kerja Bakti', start: '2025-06-01' });
+        });
         calendar.render();
       });
 
